@@ -1,1 +1,1 @@
-# maDMP-shaql
+# maDMP-shacl
