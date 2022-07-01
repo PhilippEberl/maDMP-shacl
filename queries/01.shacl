@@ -1,0 +1,9 @@
+prefix ex: <http://example.com/ns#>
+prefix sh: <http://www.w3.org/ns/shacl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ex:ByteSizeTypeConstraint a sh:PropertyShape ;
+    sh:targetObjectsOf :byteSize ;
+    sh:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+    sh:message ":byteSize value should be of type integer" ;
+.
